@@ -1,0 +1,280 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+   
+}
+.body{
+    width:100%;
+    background-color:rgba(114, 235, 199, 0.7);
+}
+.header{
+    position: relative;
+    width:100%;
+    height:65px;
+    background-color:rgba(114, 235, 199, 0.6);
+}
+.header .h3{
+ padding:10px 20px;
+ margin-left: 15px;
+ color: darkcyan;
+}
+.header .h3 span{
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Sriracha', cursive;
+    font-size: 25px;
+}
+.header .h3 .food{
+    font-family: 'Caveat Brush', cursive;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Sriracha', cursive;
+    text-shadow: 1px 3px darkcyan;
+}
+.header .h3 .icon{
+    font-size: 22px;
+}
+.header .nav{
+    float:right;
+    margin-right: 20px;
+}
+.header .nav ul{
+    list-style-type:none;
+    display:inline;
+}
+.header .nav ul li{
+    display:inline-flex;
+    margin-right: 10px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color:darkcyan;
+    display:block;
+    padding:10px;
+    border: 2px solid darkcyan;
+    border-radius: 25px;
+}
+/* a.active{
+    background-color:rgb(116, 187, 9);
+} */
+.nav ul li a:hover{
+    background-color:rgb(114, 232, 232);
+    color:darkcyan; 
+}
+.nav ul li ul.hide{
+    display: none;
+}
+
+.main h3
+{
+  text-align: center;
+  font-size: 25px;
+  /* border:2px solid red; */
+  padding:10px;
+  text-shadow: 2px 2px 5px green;
+}
+.main{
+    /* border:2px solid red; */
+    height:580px;
+}
+.main .row1{
+    /* border:2px solid red; */
+    margin-top:10px;
+    float:left;
+    width:100%;
+    height:250px;
+    display:inline-flex;
+}
+.main .row1 .one{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:30px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+.main .row1 .one span{ 
+    font-size: 19px;
+    padding-left: 45px;
+    /* border:2px solid red;  */
+  }
+.main .row1 .two{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:20px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+ .main .row1 .two span{ 
+  font-size: 19px;
+  padding-left: 45px;
+  /* border:2px solid red;  */
+} 
+.main .row1 .three{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:20px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+.main .row1 .three span{ 
+    font-size: 19px;
+    padding-left: 35px;
+    /* border:2px solid red;  */
+  } 
+  .main .row1 .four{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:20px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+.main .row1 .four span{ 
+    font-size: 19px;
+    padding-left: 25px;
+    /* border:2px solid red;  */
+  } 
+  .main .row1 .five{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:20px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+.main .row1 .five span{ 
+    font-size: 19px;
+    padding-left:25px;
+    /* border:2px solid red;  */
+  } 
+  .main .row2{
+    /* border:2px solid red; */
+    margin-top:10px;
+    float:left;
+    width:100%;
+    height:250px;
+    display:inline-flex;
+}
+.main .row2 .one{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:30px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+.main .row2 .one span{ 
+    font-size: 19px;
+    padding-left: 10px;
+    /* border:2px solid red;  */
+  } 
+.main .row2 .two{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:20px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+ .main .row2 .two span{ 
+  font-size: 19px;
+  padding-left: 50px;
+  /* border:2px solid red;  */
+} 
+.main .row2 .three{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:20px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+.main .row2 .three span{ 
+    font-size: 19px;
+    padding-left: 5px;
+    /* border:2px solid red;  */
+  } 
+  .main .row2 .four{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:20px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+.main .row2 .four span{ 
+    font-size: 19px;
+    padding-left: 55px;
+    /* border:2px solid red;  */
+  } 
+  .main .row2 .five{
+    width:18%;
+    /* border:2px solid green; */
+    height:240px;
+    margin-left:20px;
+    /* padding-left:2px; */
+    background-color: rgba(107, 237, 237, 0.475);
+    box-shadow:10px 10px 10px grey;
+}
+.main .row2 .five span{ 
+    font-size: 19px;
+    padding-left: 40px;
+    /* border:2px solid red;  */
+  } 
+.heading h2{
+    text-align:center;
+    text-shadow: 1px 3px gray;
+    padding-bottom: 9px;
+    background-color:rgba(114, 235, 199, 0.7);
+     /* border:2px solid red;  */
+}
+.footer{
+    margin-top:0px;
+    height:140px;
+    /* background-color:rgba(166, 232, 212, 0.7); */
+    background-color:rgba(114, 235, 199, 0.7);
+    /* border:2px solid red; */
+}
+.footer h3{ 
+    padding-top: 30px;
+    padding-left: 250px;
+    font-size:20px;
+}
+.footer ul{
+    /* border: 2px solid red; */
+    display: inline-flex;
+    margin-left: 250px;
+    list-style: none;
+    padding-top: 15px;   
+}
+.footer ul li{
+    /* border:2px solid red; */
+    margin:5px;
+    padding:10px;
+}
+.footer ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    border:2px solid darkcyan;
+    padding:10px;
+    color:darkcyan;
+    border-radius:25px;
+}
+.footer ul li a:hover{
+    background-color:rgb(114, 232, 232);
+    color:darkcyan; 
+}

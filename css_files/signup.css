@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url("singup.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header
+{
+ width:100%;
+ height:65px;
+ /* background-color:rgb(6, 193, 196); */
+ font-size: 35px;
+ padding-top: 14px;
+ padding-left: 15px;
+ color:black;
+ text-align: center;
+ text-shadow: 2px 2px 5px rgb(99, 155, 14);
+}
+.header span{
+    font-size: 37px;
+    font-family: 'Sriracha', cursive;
+    text-shadow: 2px 2px 5px green;
+}
+.form
+{
+    width:400px;
+    height:300px;
+    padding:40px;
+    position: absolute;
+    top:10%;
+    left:40%;
+    /* background-color:#191919; */
+}
+.form .signup{
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Sriracha', cursive;   
+    padding:25px auto 15px;
+}
+.form label{
+    font-size: 20px;
+    font-family: 'Sriracha', cursive;
+    padding:5px;
+    margin-left: 20px;
+}
+.form input[type="text"],input[type="password"],input[type="email"],input[type="tel"]
+{
+    margin-left:20px;
+    width:85%;
+    padding:10px;
+    border:2px solid black;
+    border-radius: 25px;
+    outline: none;
+    transition: .6s;
+}
+.form input[id="male"],.form input[id="female"],.form input[id="other"]{
+    margin-left:20px;  
+}
+.form .gender{
+    margin-left:-5px;
+}
+.form input[type="text"]:hover,input[type="password"]:hover,
+.form input[type="email"]:hover,input[type="tel"]:hover
+{
+    width:300px;
+    color:black;
+    border-color:grey;
+    transition: .6s;
+    background-color:grey;
+}
+.form input[type="submit"],.form input[type="reset"]
+{
+    border: 2px solid black;
+    outline:none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    /* background:grey; */
+    text-align: center;
+    margin: 25px ;
+    transition:1s;
+    color:black;
+    cursor:pointer;
+}
+.form input[type="submit"]:hover,.form input[type="reset"]:hover
+{
+    background:grey; 
+    border-color:grey;
+}
