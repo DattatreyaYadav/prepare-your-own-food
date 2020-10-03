@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="signup.css">
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header"> Cook Healthy <span>"FOOD"</span></header>
+        <div class="form">
+             <div class="signup"><h1>SignUp</h1> </div>
+             <form action="#" method="POST">
+                <label for="name">Your Name</label> <br>
+                <input type="text" id="name" name="name" placeholder="Enter Your Name"> <br>
+                <label>Gender</label> <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male" class="gender">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female"class="gender">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other" class="gender">Other</label><br>
+                <label for="email">Email_Id</label> <br>
+                <input type="email" id="email" name="mail" placeholder="ABC@gmail.com"> <br>
+                <label for="phone">Phone Number</label> <br>
+                <input type="tel" id="phone" name="phonenumber" pattern="[0-9]{10}" placeholder="9876543210"> <br>  
+                <label for="password">Password</label> <br>
+                <input type="password" id="password" name="password" placeholder="Enter password"> <br>
+                <label for="c_password">Confirm Password</label> <br>
+                <input type="password" id="c_password" name="password" placeholder="Confirm password"> <br>
+                <input type="submit" name="submit" value="SUBMIT">
+                <input type="reset" name="reset" value="RESET">
+             </form>
+        </div>
+</body>
+</html>
